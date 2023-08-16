@@ -1,1 +1,1 @@
-# Synergy-oreparting-system-architectures
+# Synergy-operating-system-architectures
