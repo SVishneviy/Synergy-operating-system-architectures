@@ -28,7 +28,7 @@ void generateMatrix(int arr[10][10], int col, int row) {
 int main() {
     int fd[2];
     int arr_a[10][10], arr_b[10][10];
-    int i, col1, col2, row1, row2;
+    int col1, col2, row1, row2;
     
     pid_t p;
 
