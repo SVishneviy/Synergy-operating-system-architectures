@@ -42,6 +42,11 @@ int main() {
     cout << "Введите размер матрицы B:" << endl;
     cin >> row2 >> col2;
 
+    if (row1 != col2) {
+        cout << "Количество столбцов матрицы A не равно количеству строк матрицы B!" << endl;
+        return 1;
+    } 
+
     srand(time(NULL));
     generateMatrix(arr_a, col1, row1);
     printMatrix(arr_a, col1, row1, "Матрица A:");
