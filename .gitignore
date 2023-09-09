@@ -2,3 +2,8 @@ Processes and threads/Homework_1
 Processes management/Homework_1
 Input and output streams/Homework_1
 Posix basics/Homework_1
+Sockets/File socket/Homework_1_client
+Sockets/File socket/Homework_1_server
+Sockets/Network socket/Homework_2_client
+Sockets/Network socket/Homework_2_server
+.vscode/c_cpp_properties.json
