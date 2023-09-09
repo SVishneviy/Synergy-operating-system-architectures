@@ -9,8 +9,6 @@ using namespace std;
 #define ERROR_JOIN_THREAD -12
 #define SUCCESS 0
 
-#define MULTIPLICATION_FAILED 1
-
 #define NUM_THREADS 2
 
 typedef struct matrix_t {
