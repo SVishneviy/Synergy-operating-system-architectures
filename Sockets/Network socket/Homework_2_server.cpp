@@ -12,7 +12,6 @@
 using namespace std;
 
 #define MAX_COUNT_SOCK 10
-#define SOCKET_NAME "/home/svishneviy/Synergy-operating-system-architectures/Sockets/Network socket/server.soc"
 
 int main() {
     int sock, max_sock;
