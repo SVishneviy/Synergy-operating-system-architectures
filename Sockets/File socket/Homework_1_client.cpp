@@ -25,7 +25,7 @@ int main() {
     printf("sun_path=%s, len=%ld\n", addr.sun_path, strlen(SOCKET_NAME));
 
     if (connect(sock, (struct sockaddr *) &addr, sizeof(addr)) < 0) {
-        perror("Can't set dest address");
+        perror("Connect failed");
         return errno;
     }
 
